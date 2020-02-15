@@ -1,0 +1,36 @@
+.banner{
+    background-image: url(../images/beach.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slider{
+   /* background-color: rgba(1,1,1,.5);*/
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 95px;
+    text-align: center;
+}
+.slider h1{
+    margin-bottom: 30px;
+}    
+.slider p{
+    color: blue;
+    font-size: 18px;
+    margin-bottom: 30px; 
+}
+.slider button{
+    text-transform: uppercase;
+    color: blue;
+    border-radius: 15px;
+    font-weight: 700;
+}
+.carousel-indicators {
+    bottom: 40px;
+}
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
